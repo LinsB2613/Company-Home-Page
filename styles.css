@@ -1,0 +1,145 @@
+html {
+    height: 100%
+}
+
+
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2
+h3
+h4 {
+    margin: 0;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Dosis", sans-serif ;
+}
+
+nav {
+    height: 80px;
+    position: fixed;    
+    width: 100%;
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #282B37; 
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    padding: 15px;
+    font-size: 30px;
+}
+
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+    margin: 25px;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    background-image: url("Images/guillaume-marques-L2Wri9t7rQI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 35px;
+}
+
+.mission .content {
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.651);
+    width: 100%;
+    color: black;
+}
+
+.portfolio {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 100px;
+    }
+
+.description {
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+    display: flex;
+    justify-items: center;
+}
+
+.portfolio img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    height: auto;
+}
+
+.team-container {
+    background-image: url("Images/cyrus-gomez-ExAvwldSB2g-unsplash.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-container .content {
+    margin: auto;
+    width: 100%;
+    color: white;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    padding: 100px;
+}
+
+.team img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: auto;
+    padding: 50px;
+}
+
+.bio {
+    padding: 10px;
+    color: whitesmoke;
+    flex-basis: 280px;
+}
+
+.contact
+.copyright {
+    margin-bottom: 50px;
+    padding: 50px;
+}
